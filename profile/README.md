@@ -19,15 +19,7 @@ KarlsenAI inference network.
 | [**karlsenminer**](https://github.com/karlsencoin/karlsenminer) | High-performance GPU miner (AMD OpenCL + NVIDIA CUDA). | `Beta` |
 | [**karlsenai-amd**](https://github.com/karlsencoin/karlsenai-amd) | KarlsenAI worker for AMD ROCm GPUs. Earn $KLS by serving LLM / image inference. | `Beta` |
 | [**karlsenai-nvidia**](https://github.com/karlsencoin/karlsenai-nvidia) | KarlsenAI worker for NVIDIA CUDA GPUs. Rust + candle inference backend. | `Beta` |
-| [**karlsenai-orchestrator**](https://github.com/karlsencoin/karlsenai-orchestrator) | VPS-side orchestrator: model catalogs, payment routing, worker registry. | `Beta` |
-| [**karlsenai-frontend**](https://github.com/karlsencoin/karlsenai-frontend) | Web chat & image-gen UI for [ai.karlsencoin.org](https://ai.karlsencoin.org). | `Beta` |
 | [**karlsen-mobile**](https://github.com/karlsencoin/karlsen-mobile) | Flutter wallet for iOS and Android. | `Released` |
-| [**karlsen-explorer**](https://github.com/karlsencoin/karlsen-explorer) | Block explorer + UTXO indexer for [explorer.karlsencoin.org](https://explorer.karlsencoin.org). | `Released` |
-| [**karlsen-change**](https://github.com/karlsencoin/karlsen-change) | Multi-chain swap service ([change.karlsencoin.org](https://change.karlsencoin.org)). | `Released` |
-
-> Replace the repository links above with your actual repo URLs as you
-> create / migrate them. The repos marked `Beta` here are the FAZ 2
-> in-flight work — feel free to update statuses as releases land.
 
 ---
 
@@ -82,13 +74,13 @@ paid directly to your $KLS wallet.
 
 ## Contributing
 
-All repositories accept issues and pull requests. For larger changes,
-open an issue first so we can align on approach. The Discord
-**#dev** channel is the fastest place to ask questions.
+The repositories listed above accept issues and pull requests. For
+larger changes, open an issue first so we can align on approach. The
+Discord **#dev** channel is the fastest place to ask questions.
 
 ## License
 
 Each repository carries its own license. The Rust node is forked from
 the rusty-kaspa codebase and remains under its original ISC / MIT terms.
-KarlsenAI components are licensed individually — see each repo's
+KarlsenAI worker components are licensed individually — see each repo's
 `LICENSE` file.

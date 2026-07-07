@@ -16,7 +16,7 @@ KarlsenAI inference network.
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [**rusty-karlsen**](https://github.com/karlsencoin/rusty-karlsen) | Full Karlsen node (Rust). KarlsenHashV2 PoW + GHOSTDAG consensus. | `Stable` |
-| [**karlsenminer**](https://github.com/karlsencoin/karlsenminer) | High-performance GPU miner (AMD OpenCL + NVIDIA CUDA). | `Beta` |
+| [**karlsenminer**](https://github.com/karlsencoin/karlsen-miner) | High-performance GPU miner (AMD OpenCL + NVIDIA CUDA). | `Beta` |
 | [**karlsenai-amd**](https://github.com/karlsencoin/karlsenai-amd) | KarlsenAI worker for AMD ROCm GPUs. Earn $KLS by serving LLM / image inference. | `Beta` |
 | [**karlsenai-nvidia**](https://github.com/karlsencoin/karlsenai-nvidia) | KarlsenAI worker for NVIDIA CUDA GPUs. Rust + candle inference backend. | `Beta` |
 | [**karlsen-mobile**](https://github.com/karlsencoin/karlsen-mobile) | Flutter wallet for iOS and Android. | `Released` |

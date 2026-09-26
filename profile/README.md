@@ -67,7 +67,7 @@ paid directly to your $KLS wallet.
 
 - **Website:** [karlsencoin.org](https://karlsencoin.org/)
 - **Discord:** [discord.gg/QyrvshRBJV](https://discord.gg/QyrvshRBJV)
-- **Telegram:** [t.me/KarlsenTaskForce](https://t.me/KarlsenTaskForce)
+- **Telegram:** [t.me/KarlsenTaskForce](https://t.me/KarlsenCoin)
 - **Exchange:** [NonKYC.io — KLS/USDT](https://nonkyc.io/market/KLS_USDT)
 
 ---

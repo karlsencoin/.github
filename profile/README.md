@@ -1,86 +1,50 @@
-# Karlsen Coin
+<div align="center">
 
-A **GPU-friendly, ASIC-resistant BlockDAG** implementation powering
-decentralized AI inference on consumer hardware.
+<img src="https://raw.githubusercontent.com/karlsencoin/.github/main/profile/assets/banner.svg" alt="Karlsen — GPU-friendly BlockDAG powering decentralized AI" width="100%"/>
 
-Karlsen combines the GHOSTDAG consensus protocol with the
-**KarlsenHashV2** proof-of-work algorithm (FishHashPlus DAG) — designed
-from the ground up to keep mining accessible to everyday GPU owners
-while channeling that same hardware into useful AI compute through the
-KarlsenAI inference network.
+<br/>
 
----
+[![Website](https://img.shields.io/badge/Website-karlsencoin.org-14304f?style=for-the-badge)](https://karlsencoin.org)
+[![KarlsenAI](https://img.shields.io/badge/KarlsenAI-ai.karlsencoin.org-4fd1c5?style=for-the-badge)](https://ai.karlsencoin.org)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/QyrvshRBJV)
+[![Telegram](https://img.shields.io/badge/Telegram-KarlsenCoin-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/KarlsenCoin)
+[![X](https://img.shields.io/badge/X-Karlsen__Labs-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Karlsen_Labs)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-karlsencoin-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/karlsencoin)
 
-## Our Core Ecosystem
-
-| Repository | Description | Status |
-|------------|-------------|--------|
-| [**rusty-karlsen**](https://github.com/karlsencoin/rusty-karlsen) | Full Karlsen node (Rust). KarlsenHashV2 PoW + GHOSTDAG consensus. | `Stable` |
-| [**karlsenminer**](https://github.com/karlsencoin/karlsen-miner) | High-performance GPU miner (AMD OpenCL + NVIDIA CUDA). | `Beta` |
-| [**karlsenai-amd**](https://github.com/karlsencoin/karlsenai-amd) | KarlsenAI worker for AMD ROCm GPUs. Earn $KLS by serving LLM / image inference. | `Beta` |
-| [**karlsenai-nvidia**](https://github.com/karlsencoin/karlsenai-nvidia) | KarlsenAI worker for NVIDIA CUDA GPUs. Rust + candle inference backend. | `Beta` |
-| [**karlsen-mobile**](https://github.com/karlsencoin/karlsen-mobile) | Flutter wallet for iOS and Android. | `Released` |
+</div>
 
 ---
 
-## Quick Start
+### ⛏️ + 🧠 One GPU, two jobs
 
-### Run a Karlsen node
-Download the latest release of [rusty-karlsen](https://github.com/karlsencoin/rusty-karlsen/releases/latest)
-and run it with the included fallback seeders — no extra configuration needed.
-
-### Mine $KLS
-Grab the matching binary from [karlsenminer/releases](https://github.com/karlsencoin/karlsenminer/releases/latest):
-- **AMD GPUs:** OpenCL kernel, ~29 MH/s on RX 6800
-- **NVIDIA GPUs:** CUDA kernel with `__ldg()` DAG reads and high-priority streams
-- **HiveOS / mmpOS:** Linux build with full integration
-
-### Earn $KLS by running an AI worker
-Choose the build for your GPU:
-- **AMD ROCm** → [karlsenai-amd/releases/latest](https://github.com/karlsencoin/karlsenai-amd/releases/latest)
-  Supports LLM chat (companion / character / fiction), multimodal vision
-  (DOCUMENT role), and Stable Diffusion image generation.
-- **NVIDIA CUDA** → [karlsenai-nvidia/releases/latest](https://github.com/karlsencoin/karlsenai-nvidia/releases/latest)
-  Rust + candle backend with multi-model GGUF support.
-
-Workers earn **100% of the prompt reward** (zero platform commission)
-paid directly to your $KLS wallet.
-
-### Use KarlsenAI services
-- **Web chat & image generation:** [ai.karlsencoin.org](https://ai.karlsencoin.org)
-- **Mobile wallet:** [karlsencoin.org/downloads](https://karlsencoin.org/)
-- **Swap KLS ↔ USDT / BNB / MATIC / AVAX:** [change.karlsencoin.org](https://change.karlsencoin.org)
+Karlsen combines the **GHOSTDAG** consensus protocol with the **KarlsenHashV2** proof-of-work (FishHashPlus DAG). It keeps mining accessible to everyday GPU owners — and channels that same hardware into useful AI compute through the **KarlsenAI** inference network. Miners secure the chain *and* earn $KLS by serving LLM inference.
 
 ---
 
-## Network Infrastructure
+### 🌐 Ecosystem
 
-- **Mainnet RPC:** `mobile.karlsencoin.org:42110` (TLS-wrapped gRPC)
-- **Block explorer:** [explorer.karlsencoin.org](https://explorer.karlsencoin.org)
-- **Node map (KGI):** [kgi.karlsencoin.org](https://kgi.karlsencoin.org)
-- **Ticker API:** [ticker.karlsencoin.org](https://ticker.karlsencoin.org)
-- **DNS seeders:** `seeder1.karlsencoin.org` ... `seeder3.karlsencoin.org`
-
----
-
-## Community & Support
-
-- **Website:** [karlsencoin.org](https://karlsencoin.org/)
-- **Discord:** [discord.gg/QyrvshRBJV](https://discord.gg/QyrvshRBJV)
-- **Telegram:** [t.me/KarlsenCoin](https://t.me/KarlsenCoin)
-- **Exchange:** [NonKYC.io — KLS/USDT](https://nonkyc.io/market/KLS_USDT)
+| | Component | What it does | Links |
+|:-:|---|---|---|
+| 🧱 | **rusty-karlsen** | Full node in Rust — KarlsenHashV2 PoW + GHOSTDAG | [Repo](https://github.com/karlsencoin/rusty-karlsen) |
+| ⛏️ | **KarlsenMiner** | GPU miner for AMD (OpenCL) and NVIDIA (CUDA), Windows + HiveOS | [Releases](https://github.com/karlsencoin/karlsen-miner/releases) |
+| 🖥️ | **karlsen-cpu-miner** | CPU miner in Rust | [Repo](https://github.com/karlsencoin/karlsen-cpu-miner) |
+| 🧠 | **KarlsenAI** | Decentralized LLM inference on consumer GPUs | [Chat](https://ai.karlsencoin.org) · [Models](https://huggingface.co/karlsencoin) |
+| 📱 | **Karlsen Mobile** | Flutter wallet for iOS and Android | [Repo](https://github.com/karlsencoin/karlsen-mobile) |
+| 👛 | **Web Wallet** | Non-custodial browser wallet | [Open](https://wallet.karlsencoin.org) |
+| 🔎 | **Explorer** | Blocks, transactions, addresses | [Open](https://explorer.karlsencoin.org) |
+| 🗺️ | **KGI Dashboard** | Node map, P2P crawler, reward tracker | [Open](https://kgi.karlsencoin.org) |
+| 🔁 | **KarlsenChange** | USDT → KLS swap service | [Open](https://change.karlsencoin.org) |
+| 🌉 | **wKLS Bridge** | Wrapped KLS on Solana | — |
 
 ---
 
-## Contributing
+### 🚀 Get started
 
-The repositories listed above accept issues and pull requests. For
-larger changes, open an issue first so we can align on approach. The
-Discord **#dev** channel is the fastest place to ask questions.
+- **Run a node** → [rusty-karlsen](https://github.com/karlsencoin/rusty-karlsen/releases/latest)
+- **Mine KLS** → [KarlsenMiner releases](https://github.com/karlsencoin/karlsen-miner/releases)
+- **Try the AI** → [ai.karlsencoin.org](https://ai.karlsencoin.org)
+- **Talk to us** → [Discord](https://discord.gg/QyrvshRBJV) · [Telegram](https://t.me/KarlsenCoin)
 
-## License
-
-Each repository carries its own license. The Rust node is forked from
-the rusty-kaspa codebase and remains under its original ISC / MIT terms.
-KarlsenAI worker components are licensed individually — see each repo's
-`LICENSE` file.
+<div align="center">
+<sub>Built by the Karlsen community · GPU-friendly by design</sub>
+</div>

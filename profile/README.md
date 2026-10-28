@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/karlsencoin/.github/main/profile/assets/banner.svg" alt="Karlsen — GPU-friendly BlockDAG powering decentralized AI" width="100%"/>
+<img src="https://raw.githubusercontent.com/karlsencoin/.github/main/profile/assets/banner.svg?v=2" alt="Karlsen — GPU-friendly BlockDAG powering decentralized AI" width="100%"/>
 
 <br/>
 
